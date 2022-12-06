@@ -12,7 +12,4 @@ public class RoadSideHotel implements Hotel{
 		System.out.println("vegBiryani from RoadSideHotel");
 	}
 
-	void masalaDosa() {
-		System.out.println("masalaDosa from RoadSideHotel");
-	}
 }
