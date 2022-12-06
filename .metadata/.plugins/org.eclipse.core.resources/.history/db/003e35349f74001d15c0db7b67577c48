@@ -1,0 +1,11 @@
+package com.learning;
+
+public class Demo {
+	public String toString() {
+		return "Hello Welcome";
+	}
+	public static void main(String[] args) {
+		Demo d1=new Demo();
+		System.out.println(d1);
+	}
+}

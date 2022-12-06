@@ -1,0 +1,28 @@
+package com.hotel;
+
+public class Main {
+	
+	public Hotel funHotel(int price) {
+		Hotel hotel=null;
+		
+		if(price>200 && price <500) {
+			hotel=new RoadSideHotel();
+		}else {
+			hotel=new TajHotel();
+		}
+		
+		return hotel;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main m1=new Main();
+		Hotel h1=m1.funHotel(500);
+		
+		h1.chickenBiryani();
+		h1.vegBiryani();
+		
+		
+	}
+
+}

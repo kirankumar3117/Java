@@ -1,0 +1,15 @@
+package com.learning;
+
+public class Demo {
+	
+	public void fun(X x1) {
+		x1.funX();
+		x1.funY();
+		XImpl x2=(XImpl)x1;
+		x2.funZ();
+	}
+	public static void main(String[] args) {
+		Demo d1=new Demo();
+		d1.fun(new XImpl());
+	}
+}

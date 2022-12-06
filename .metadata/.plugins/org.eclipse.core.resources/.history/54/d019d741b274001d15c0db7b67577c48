@@ -1,0 +1,9 @@
+package com.classassignment;
+
+public class Student extends Person{
+	
+	int studentId=1;
+	String courseEnrolled="Java001";
+	int courseFee=500000;
+	
+}

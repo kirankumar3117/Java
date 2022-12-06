@@ -1,0 +1,20 @@
+package com.learning;
+
+public class Demo {
+	public Object fun(int a) {
+		if(a>10)
+			return new A();
+		else 
+			return new B();
+	}
+	public static void main(String[] args) {
+		Demo d1=new Demo();
+		
+		Object obj=d1.fun(0);
+		B b1=(B)obj;
+		b1.funB();
+		Object obj1=d1.fun(11);
+		A a1=(A)obj1;
+		a1.funA();
+	}
+}

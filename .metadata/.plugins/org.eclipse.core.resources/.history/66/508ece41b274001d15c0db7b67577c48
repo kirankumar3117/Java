@@ -1,0 +1,7 @@
+package com.classassignment;
+
+public class Adderess {
+	String city="chennai";
+	String state="TN";
+	String 	pincode="521180";
+}

@@ -1,0 +1,11 @@
+package com.classassignment;
+
+public class Instructor extends Person{
+	int instrcutorId;
+	int salary;
+	@Override
+	public String toString() {
+		return "Instructor [instrcutorId=" + instrcutorId + ", salary=" + salary
+				+ "\n"+"Address()=" + Address() + "]";
+	}
+}
